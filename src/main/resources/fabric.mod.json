@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "deltasweaponpack",
+  "version": "${version}",
+
+  "name": "DeltA's Pack o' Weapons!",
+  "description": "Ever wanted to trap someone in Horny jail? or to wap someone with my signature weapon? \n Then this is the mod for you.",
+  "authors": [
+    "DeltAxShaRD"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/deltasweaponpack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ariafey.deltasweaponpack.deltasweaponpack"
+    ]
+  },
+  "mixins": [
+    "deltasweaponpack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

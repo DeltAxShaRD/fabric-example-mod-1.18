@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:shulker",
+    "minecraft:ghast",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:creeper",
+    "minecraft:vex",
+    "minecraft:slime",
+    "minecraft:magma_cube"
+  ]
+}

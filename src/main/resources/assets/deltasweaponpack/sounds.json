@@ -1,0 +1,14 @@
+{
+  "jump": {
+    "subtitle": "deltasweaponpack.jump_pad_jump",
+    "sounds": [
+      "deltasweaponpack:jump"
+    ]
+  },
+  "boost": {
+    "subtitle": "deltasweaponpack.speed_block_boost",
+    "sounds": [
+      "deltasweaponpack:boost"
+    ]
+  }
+}

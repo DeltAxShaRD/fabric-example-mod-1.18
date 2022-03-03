@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "deltasweaponpack:block/jump_pad",
+    "side": "deltasweaponpack:block/jump_pad_side"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item.deltasweaponpack.god_ingot": "God Ingot",
+  "item.deltasweaponpack.azals_gemstone": "Azals Gemstone",
+  "item.deltasweaponpack.dowsing_rod": "Dowsing Rod",
+
+  "item.deltasweaponpack.cherry": "Cherry",
+
+  "item.deltasweaponpack.umbrashine": "\u00A7eUMBRA\u00A75SHINE",
+  "item.deltasweaponpack.umbrashine.umbrashine_lore": "\u00A73Held together with a \u00A7dMirror Fractal.",
+  "item.deltasweaponpack.umbrashine.umbrashine_lore2": "\u00A73this legendary blade was",
+  "item.deltasweaponpack.umbrashine.umbrashine_lore3": "\u00A73forged with the purest essence of light and shadow",
+  "item.deltasweaponpack.umbrashine.umbrashine_lore4": "\u00A76 Delta Wields this Sword",
+
+  "block.deltasweaponpack.god_block": "God Block",
+  "block.deltasweaponpack.god_ore": "God Ore",
+  "block.deltasweaponpack.speedy_block": "Star Speed Booster",
+  "block.deltasweaponpack.jump_pad": "Jump Pad",
+  "block.deltasweaponpack.god_pressure_plate": "God Pressure Plate",
+  "block.deltasweaponpack.god_button": "God Button",
+  "block.deltasweaponpack.deepslate_azal_ore": "Deepslate Azal Ore",
+  "block.deltasweaponpack.azal_ore": "Azal Ore",
+
+  "itemGroup.deltasweaponpack.delta_stuff": "DeltA's Stuff",
+
+  "item.deltasweaponpack.dowsing_rod.no_valuables": "Nothing found...",
+
+  "item.deltasweaponpack.dowsing_rod.tooltip": "\u00A77Used to find valuables underground.",
+
+  "item.deltasweaponpack.spine_slicer": "Spine Slicer",
+  "item.deltasweaponpack.spine_slicer.spine_slicer_lore": "Dripping with a special poison.",
+  "item.deltasweaponpack.spine_slicer.spine_slicer_lore2": "Hit an enemy's spine to cause massive damage"
+}

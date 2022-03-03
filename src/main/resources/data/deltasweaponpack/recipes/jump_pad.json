@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "LPL",
+        "RSR"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:lime_stained_glass"
+        },
+        "L": {
+            "item": "minecraft:lime_concrete"
+        },
+        "P": {
+            "item": "minecraft:piston"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        },
+        "S": {
+            "item": "minecraft:slime_block"
+        }
+    },
+    "result": {
+        "item": "deltasweaponpack:jump_pad",
+        "count": 1
+    }
+}

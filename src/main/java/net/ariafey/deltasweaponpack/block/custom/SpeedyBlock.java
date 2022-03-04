@@ -30,13 +30,18 @@ public class SpeedyBlock extends Block {
             if(entity instanceof PlayerEntity player) {
                 if(!player.hasStatusEffect(StatusEffects.SPEED)) {
                     player.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 2));
-                    world.playSound(player, pos, ModSounds.BOOST, SoundCategory.BLOCKS, 1f, 1f);
                 }
             }
             if(entity instanceof LivingEntity livingEntity) {
                 if(!livingEntity.hasStatusEffect(StatusEffects.SPEED)) {
                     livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 200, 2));
-                    world.playSound(pos.getX(), pos.getY(), pos.getZ(), ModSounds.BOOST, SoundCategory.BLOCKS, 1f, 1f, true);
+                }
+            }
+        }
+        if(world.isClient()) {
+            if(entity instanceof PlayerEntity player) {
+                if(!player.hasStatusEffect(StatusEffects.SPEED)) {
+                    world.playSound(player, pos, ModSounds.BOOST, SoundCategory.BLOCKS, 1f, 1f);
                 }
             }
         }

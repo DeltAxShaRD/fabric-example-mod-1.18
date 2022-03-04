@@ -28,9 +28,6 @@ public class JumpPad extends Block {
                 livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 5, 4));
             }
         }
-        if(world.isClient) {
-            if(player.upwardSpeed > 0.00) world.playSound(player, pos, ModSounds.JUMP, SoundCategory.BLOCKS, 1f, 1f);
-        }
         super.onSteppedOn(world, pos, state, entity);
     }
     @Override
@@ -42,5 +39,6 @@ public class JumpPad extends Block {
         }
     }
 }
+
 
 

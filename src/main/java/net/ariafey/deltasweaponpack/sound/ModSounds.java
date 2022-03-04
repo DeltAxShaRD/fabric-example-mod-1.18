@@ -7,7 +7,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModSounds {
     public static SoundEvent JUMP_PAD_JUMP = registerSoundEvent("jump");
-    public static SoundEvent SPEED_BLOCK_BOOST = registerSoundEvent("boost");
+    public static SoundEvent BOOST = registerSoundEvent("boost");
     
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = new Identifier(deltasweaponpack.MOD_ID, name);

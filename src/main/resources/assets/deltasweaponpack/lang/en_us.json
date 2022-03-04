@@ -22,5 +22,6 @@
   "item.deltasweaponpack.spine_slicer": "Spine Slicer",
   "item.deltasweaponpack.spine_slicer.spine_slicer_lore": "Dripping with a special poison.",
   "item.deltasweaponpack.spine_slicer.spine_slicer_lore2": "Hit an enemy's spine to cause massive damage",
-  "sounds.deltasweaponpack.boost": "Boosted!"
+  "sounds.deltasweaponpack.boost": "Boosted!",
+  "sounds.deltasweaponpack.jump": "Boosted!"
 }

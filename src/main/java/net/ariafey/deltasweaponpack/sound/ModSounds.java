@@ -6,7 +6,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModSounds {
-    public static SoundEvent JUMP_PAD_JUMP = registerSoundEvent("jump");
+    public static SoundEvent JUMP = registerSoundEvent("jump");
     public static SoundEvent BOOST = registerSoundEvent("boost");
     
     private static SoundEvent registerSoundEvent(String name) {

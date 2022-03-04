@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "###",
-        "LPL",
-        "RSR"
+        "LSL",
+        "RPR"
     ],
     "key": {
         "#": {

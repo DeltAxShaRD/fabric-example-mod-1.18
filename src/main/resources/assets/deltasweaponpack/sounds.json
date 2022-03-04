@@ -1,6 +1,6 @@
 {
   "jump": {
-    "subtitle": "sounds.deltasweaponpack.jump_boost",
+    "subtitle": "sounds.deltasweaponpack.jump",
     "sounds": [
       "deltasweaponpack:jump"
     ]

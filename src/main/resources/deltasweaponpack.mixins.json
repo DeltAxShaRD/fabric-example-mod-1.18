@@ -4,6 +4,7 @@
   "package": "net.ariafey.deltasweaponpack.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "ModEntityDataSaver"
   ],
   "client": [
     "ExampleMixin"

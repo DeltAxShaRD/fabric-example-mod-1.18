@@ -21,11 +21,19 @@ public class JumpPad extends Block {
 
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
-        PlayerEntity player = (PlayerEntity) entity;
-        
         if(!world.isClient) {
             if(entity instanceof LivingEntity livingEntity) {
-                livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 5, 4));
+                livingEntity.addVelocity(0.0, 1.25, 0.0);
+            }
+        }
+        if(world.isClient) {
+            if (entity instanceof LivingEntity livingEntity) {
+                world.playSoundFromEntity(null, livingEntity, ModSounds.JUMP, SoundCategory.BLOCKS, 1f, 1f);
+            }
+            if (entity instanceof PlayerEntity player) {
+                player.addVelocity(0.0, 1.25, 0.0); //This is pretty dumb, you need to be on client to change a player's velocity?
+                world.playSound(player, pos, ModSounds.JUMP, SoundCategory.BLOCKS, 1f, 1f);
+                
             }
         }
         super.onSteppedOn(world, pos, state, entity);

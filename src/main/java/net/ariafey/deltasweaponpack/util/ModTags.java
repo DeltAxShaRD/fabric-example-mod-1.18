@@ -12,12 +12,6 @@ public class ModTags {
     public static class Blocks {
         public static final Tag.Identified<Block> DOWSING_ROD_DETECTABLE_BLOCKS =
                 createTag("dowsing_rod_detectable_blocks");
-        public static final Tag.Identified<Block> GOD_BLOCK =
-                createCommonTag("god_blocks");
-        public static final Tag.Identified<Block> GOD_ORE =
-                createCommonTag("god_blocks");
-        public static final Tag.Identified<Block> GOD_PRESSURE_PLATE =
-                createCommonTag("god_blocks");
 
 
         private static Tag.Identified<Block> createTag(String name) {
@@ -40,9 +34,9 @@ public class ModTags {
     }
     public static class Entities {
         public static final Tag.Identified<EntityType<?>> NO_SPINE =
-                createCommonTag("no_spine");
+                createTag("no_spine");
         public static final Tag.Identified<EntityType<?>> EASY_SPINE =
-                createCommonTag("easy_spine");
+                createTag("easy_spine");
         
         
         private static Tag.Identified<EntityType<?>> createTag(String name) {

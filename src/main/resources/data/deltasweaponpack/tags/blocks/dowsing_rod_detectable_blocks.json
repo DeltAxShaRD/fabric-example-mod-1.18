@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "deltasweaponpack:god_ore",
+    "deltasweaponpack:azal_ore",
     "minecraft:redstone_ore",
     "minecraft:diamond_ore",
     "minecraft:iron_ore",
@@ -11,6 +12,7 @@
     "minecraft:lapis_ore",
     "minecraft:emerald_ore",
     "minecraft:copper_ore",
+    "deltasweaponpack:deepslate_azal_ore",
     "minecraft:deepslate_coal_ore",
     "minecraft:deepslate_iron_ore",
     "minecraft:deepslate_copper_ore",

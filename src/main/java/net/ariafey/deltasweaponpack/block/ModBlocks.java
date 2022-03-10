@@ -1,6 +1,7 @@
 package net.ariafey.deltasweaponpack.block;
 
 // Why is this broken? import net.ariafey.deltasweaponpack.block.custom.InversePressurePlateBlock;
+
 import net.ariafey.deltasweaponpack.block.custom.JumpPad;
 import net.ariafey.deltasweaponpack.block.custom.SpeedyBlock;
 import net.ariafey.deltasweaponpack.deltasweaponpack;
@@ -18,7 +19,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
-
+    
     public static final Block GOD_BLOCK = registerBlock("god_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(8f).sounds(BlockSoundGroup.METAL).requiresTool()), ModItemGroups.DELTA_STUFF);
     public static final Block GOD_ORE = registerBlock("god_ore",
@@ -37,24 +38,22 @@ public class ModBlocks {
     
     //TODO - make this damn thing work.
     //public static final Block GOD_PRESSURE_PLATE = registerBlock("god_pressure_plate",
-            //new InversePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
-                    //FabricBlockSettings.of(Material.METAL).strength(5f).requiresTool()), ModItemGroups.DELTA_STUFF);
-
-
-
-
+    //new InversePressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+    //FabricBlockSettings.of(Material.METAL).strength(5f).requiresTool()), ModItemGroups.DELTA_STUFF);
+    
+    
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(deltasweaponpack.MOD_ID, name), block);
     }
-
+    
     private static Item registerBlockItem(String name, Block block, ItemGroup group) {
         return Registry.register(Registry.ITEM, new Identifier(deltasweaponpack.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings().group(group)));
     }
-
+    
     public static void registerModBlocks() {
         System.out.println("Registering Mod Blocks for " + deltasweaponpack.MOD_ID);
-
+        
     }
 }

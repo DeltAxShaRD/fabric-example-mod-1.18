@@ -1,6 +1,7 @@
 package net.ariafey.deltasweaponpack;
 
 import net.ariafey.deltasweaponpack.block.ModBlocks;
+import net.ariafey.deltasweaponpack.effect.ModEffects;
 import net.ariafey.deltasweaponpack.item.ModItems;
 import net.ariafey.deltasweaponpack.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
@@ -17,6 +18,7 @@ public class deltasweaponpack implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModRegistries.registerModStuffs();
+		ModEffects.registerEffects();
 
 		LOGGER.info("Hello Fabric world!");
 	}

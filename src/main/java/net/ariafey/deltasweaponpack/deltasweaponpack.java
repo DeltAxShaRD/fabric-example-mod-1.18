@@ -20,6 +20,6 @@ public class deltasweaponpack implements ModInitializer {
 		ModRegistries.registerModStuffs();
 		ModEffects.registerEffects();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Nice! Thanks for installing DWP!");
 	}
 }
